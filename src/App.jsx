@@ -31,6 +31,7 @@ const App = () => {
 
   return (
     <div>
+      <p>{extension}</p>
       <button onClick={handleFileRead}>Open File</button>
       <Editor height="90vh" language={extension} value={fileContent} />;
     </div>
